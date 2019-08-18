@@ -29,22 +29,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="16sp"
-            android:text="Question 1"
+            android:text="1. What are The Four Fundamental Forces of Nature?"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/answer_1_check_box"
+            android:id="@+id/answer_1_1_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/colorAccent"
             android:paddingLeft="6sp"
-            android:text="Answer 1"
+            android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
             android:textAppearance="?android:textAppearanceMedium"
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/answer_2_check_box"
+            android:id="@+id/answer_1_2_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/colorAccent"
@@ -54,7 +54,7 @@
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/answer_3_check_box"
+            android:id="@+id/answer_1_3_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/colorAccent"
@@ -64,7 +64,7 @@
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/answer_4_check_box"
+            android:id="@+id/answer_1_4_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/colorAccent"
