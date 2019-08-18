@@ -17,203 +17,123 @@
 
         <TextView
             android:id="@+id/question_1_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="16sp"
-            android:paddingBottom="16sp"
-            android:text="1. What are The Four Fundamental Forces of Nature?"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            style="@style/QuestionStyle"
+            android:text="Question 1: What are The Four Fundamental Forces of Nature?"
+            />
 
         <CheckBox
             android:id="@+id/answer_1_1_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_1_2_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Frictional, Tension"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_1_3_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Spring, Resisting "
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_1_4_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Energy, mass, fusion, fission"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <TextView
             android:id="@+id/question_2_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="16sp"
-            android:paddingBottom="16sp"
+            style="@style/QuestionStyle"
             android:text="Questions 2"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/question_4_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="16sp"
-            android:paddingBottom="16sp"
-            android:text="1. What are The Four Fundamental Forces of Nature?"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_2_1_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_2_2_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Frictional, Tension"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_2_3_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Spring, Resisting "
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_2_4_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Energy, mass, fusion, fission"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <TextView
             android:id="@+id/question_3_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="16sp"
-            android:paddingBottom="16sp"
+            style="@style/QuestionStyle"
             android:text="Question 3"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_3_1_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_3_2_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Frictional, Tension"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_3_3_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Spring, Resisting "
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_3_4_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Energy, mass, fusion, fission"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
+
+        <TextView
+            android:id="@+id/question_4_text_view"
+            style="@style/QuestionStyle"
+            android:text="Question 4"
+            />
 
         <CheckBox
             android:id="@+id/answer_4_1_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_4_2_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Frictional, Tension"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_4_3_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Applied, Normal, Spring, Resisting "
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <CheckBox
             android:id="@+id/answer_4_4_check_box"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/colorAccent"
-            android:paddingLeft="6sp"
+            style="@style/CheckBoxStyle"
             android:text="Energy, mass, fusion, fission"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textSize="16sp" />
+            />
 
         <Button
             android:layout_width="wrap_content"
