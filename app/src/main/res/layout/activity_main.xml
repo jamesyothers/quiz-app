@@ -16,15 +16,6 @@
         tools:context=".MainActivity">
 
         <TextView
-            android:id="@+id/physics_quiz_header_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16sp"
-            android:text="Physics Quiz"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
-
-        <TextView
             android:id="@+id/question_1_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,7 +67,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="submitOrder"
+            android:onClick="submitQuiz"
             android:text="Submit Quiz"
             android:textAllCaps="true"
             android:textSize="16sp" />
