@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="QuestionStyle" >
+    <style name="QuestionStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingTop">16sp</item>
@@ -17,7 +17,7 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="CheckBoxStyle" >
+    <style name="CheckBoxStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingLeft">8sp</item>

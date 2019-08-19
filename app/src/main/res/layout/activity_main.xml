@@ -3,11 +3,11 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="8dp"
         android:paddingTop="8dp"
@@ -15,132 +15,137 @@
         android:paddingBottom="8dp"
         tools:context=".MainActivity">
 
+        <!--First question-->
+
         <TextView
             android:id="@+id/question_1_text_view"
             style="@style/QuestionStyle"
-            android:text="Question 1: What are The Four Fundamental Forces of Nature?"
-            />
+            android:text="@string/first_question" />
 
-        <CheckBox
-            android:id="@+id/answer_1_1_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
-            />
+            <CheckBox
+                android:id="@+id/answer_1_1_check_box"
+                style="@style/CheckBoxStyle"
+                android:text="@string/first_question_answer_1" />
 
-        <CheckBox
-            android:id="@+id/answer_1_2_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Frictional, Tension"
-            />
+            <CheckBox
+                android:id="@+id/answer_1_2_check_box"
+                style="@style/CheckBoxStyle"
+                android:text="@string/first_question_answer_2" />
 
-        <CheckBox
-            android:id="@+id/answer_1_3_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Spring, Resisting "
-            />
+            <CheckBox
+                android:id="@+id/answer_1_3_check_box"
+                style="@style/CheckBoxStyle"
+                android:text="@string/first_question_answer_3" />
 
-        <CheckBox
-            android:id="@+id/answer_1_4_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Energy, mass, fusion, fission"
-            />
+            <CheckBox
+                android:id="@+id/answer_1_4_check_box"
+                style="@style/CheckBoxStyle"
+                android:text="@string/first_question_answer_4" />
+
+        <!--Second question-->
 
         <TextView
             android:id="@+id/question_2_text_view"
             style="@style/QuestionStyle"
-            android:text="Question 2: What is the first law of thermodynamics?"
-            />
+            android:text="@string/second_question" />
 
-        <CheckBox
-            android:id="@+id/answer_2_1_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="The entropy of any isolated system always increases."
-            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <CheckBox
-            android:id="@+id/answer_2_2_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Energy can neither be created nor destroyed."
-            />
+            <RadioButton
+                android:id="@+id/second_question_answer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/second_question_answer_1" />
 
-        <CheckBox
-            android:id="@+id/answer_2_3_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="The entropy of a system approaches a constant value as the temperature approaches absolute zero."
-            />
+            <RadioButton
+                android:id="@+id/second_question_answer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/second_question_answer_2" />
 
-        <CheckBox
-            android:id="@+id/answer_2_4_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Question 3: What goes up must come down."
-            />
+            <RadioButton
+                android:id="@+id/second_question_answer_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/second_question_answer_3" />
+
+            <RadioButton
+                android:id="@+id/second_question_answer_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/second_question_answer_4" />
+        </RadioGroup>
+
+        <!--Third question-->
 
         <TextView
             android:id="@+id/question_3_text_view"
             style="@style/QuestionStyle"
-            android:text="What does Schrödinger equation describe?"
-            />
+            android:text="@string/third_question" />
 
-        <CheckBox
-            android:id="@+id/answer_3_1_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Electromagnetism"
-            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <CheckBox
-            android:id="@+id/answer_3_2_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Fusion"
-            />
+            <RadioButton
+                android:id="@+id/third_question_answer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/third_question_answer_1" />
 
-        <CheckBox
-            android:id="@+id/answer_3_3_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Quantum mechanics"
-            />
+            <RadioButton
+                android:id="@+id/third_question_answer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/third_question_answer_2" />
 
-        <CheckBox
-            android:id="@+id/answer_3_4_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Relativity"
-            />
+            <RadioButton
+                android:id="@+id/third_question_answer_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/third_question_answer_3" />
+
+            <RadioButton
+                android:id="@+id/third_question_answer_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/third_question_answer_4" />
+        </RadioGroup>
+
+        <!--Fourth question-->
+
 
         <TextView
             android:id="@+id/question_4_text_view"
             style="@style/QuestionStyle"
-            android:text="Question 4: Which particle is smaller?"
-            />
+            android:text="@string/fourth_question" />
 
-        <CheckBox
-            android:id="@+id/answer_4_1_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Electron"
-            />
-
-        <CheckBox
-            android:id="@+id/answer_4_2_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Proton"
-            />
-
-        <CheckBox
-            android:id="@+id/answer_4_3_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Neutron"
-            />
-
-        <CheckBox
-            android:id="@+id/answer_4_4_check_box"
-            style="@style/CheckBoxStyle"
-            android:text="Quark"
-            />
+        <EditText
+            android:id="@+id/question_4_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/starts_with_q"
+            android:inputType="text" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16sp"
             android:onClick="submitQuiz"
-            android:text="Submit Quiz"
+            android:text="@string/submit_quiz"
             android:textAllCaps="true"
             android:textSize="16sp" />
 
