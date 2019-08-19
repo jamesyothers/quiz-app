@@ -48,91 +48,91 @@
         <TextView
             android:id="@+id/question_2_text_view"
             style="@style/QuestionStyle"
-            android:text="Questions 2"
+            android:text="Question 2: What is the first law of thermodynamics?"
             />
 
         <CheckBox
             android:id="@+id/answer_2_1_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
+            android:text="The entropy of any isolated system always increases."
             />
 
         <CheckBox
             android:id="@+id/answer_2_2_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Frictional, Tension"
+            android:text="Energy can neither be created nor destroyed."
             />
 
         <CheckBox
             android:id="@+id/answer_2_3_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Spring, Resisting "
+            android:text="The entropy of a system approaches a constant value as the temperature approaches absolute zero."
             />
 
         <CheckBox
             android:id="@+id/answer_2_4_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Energy, mass, fusion, fission"
+            android:text="Question 3: What goes up must come down."
             />
 
         <TextView
             android:id="@+id/question_3_text_view"
             style="@style/QuestionStyle"
-            android:text="Question 3"
+            android:text="What does Schrödinger equation describe?"
             />
 
         <CheckBox
             android:id="@+id/answer_3_1_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
+            android:text="Electromagnetism"
             />
 
         <CheckBox
             android:id="@+id/answer_3_2_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Frictional, Tension"
+            android:text="Fusion"
             />
 
         <CheckBox
             android:id="@+id/answer_3_3_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Spring, Resisting "
+            android:text="Quantum mechanics"
             />
 
         <CheckBox
             android:id="@+id/answer_3_4_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Energy, mass, fusion, fission"
+            android:text="Relativity"
             />
 
         <TextView
             android:id="@+id/question_4_text_view"
             style="@style/QuestionStyle"
-            android:text="Question 4"
+            android:text="Question 4: Which particle is smaller?"
             />
 
         <CheckBox
             android:id="@+id/answer_4_1_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Gravitational, Weak Nuclear, Strong Nuclear, Electromagnetic"
+            android:text="Electron"
             />
 
         <CheckBox
             android:id="@+id/answer_4_2_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Frictional, Tension"
+            android:text="Proton"
             />
 
         <CheckBox
             android:id="@+id/answer_4_3_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Applied, Normal, Spring, Resisting "
+            android:text="Neutron"
             />
 
         <CheckBox
             android:id="@+id/answer_4_4_check_box"
             style="@style/CheckBoxStyle"
-            android:text="Energy, mass, fusion, fission"
+            android:text="Quark"
             />
 
         <Button
